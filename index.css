@@ -8,6 +8,8 @@
     display: flex;
     margin-top: 2rem;
     
+    
+    
 }
 .bar-a{
     color: black;
@@ -24,6 +26,8 @@
 .bar-el{
     display: flex;
     margin-bottom: 2rem;
+    
+    
 }
 .bar-li{
     margin-left: 2rem;
@@ -40,6 +44,7 @@
     font-size: 1rem;
     font-weight: bold;
     border: none;
+    min-width: 9.5rem;
 }
 .bar-btn:hover{
     background-color: #1c3326;
@@ -74,10 +79,113 @@
     
 }
 li:nth-child(7) {
-    margin-left: 23rem;
+    min-width: 6.3rem;
+    margin-left: 30%;
+
   }
 
 .mg{
     width: 1.5rem;
     margin-top: 0.6rem;
 }
+
+@media only screen and (max-width:1477px) {
+    li:nth-child(7) {
+        min-width: 6.3rem;
+        margin-left: 20%;
+    
+      }
+}
+@media only screen and (max-width:1377px) {
+    li:nth-child(7) {
+        min-width: 6.3rem;
+        margin-left: 10%;
+    
+      }
+}
+
+@media only screen and (max-width: 1280px){
+    
+    .bar-li{
+        display: none;
+      }
+      #bar-li-2{
+        display: flex;
+      }
+      .bar-li-2{
+        display: flex;
+      }
+      .bar-a {
+        display: none;
+      }
+      .bar-a-p {
+        display: none;
+      }
+      .bar{
+        margin-left: 50%;
+      }
+}
+
+@media only screen and (max-width: 1122px){
+    .bar{
+        margin-left: 40%;
+      }
+}
+@media only screen and (max-width: 940px){
+    .bar{
+        margin-left: 30%;
+      }
+}
+@media only screen and (max-width: 801px){
+    .bar{
+        margin-left: 20%;
+      }
+}
+@media only screen and (max-width: 701px){
+    .bar{
+        margin-left: 10%;
+      }
+}
+
+
+@media only screen and (max-width: 621px){
+    li:nth-child(7) {
+        margin-left: 0rem;
+      }
+      .bar{
+        margin-left: 0;
+      }
+      
+      
+      .hd-ft{
+        display: grid;
+        margin-left: 0;
+        justify-content: left;
+      }
+
+      .hd-ft-c{
+        margin-left: 0;
+      }
+      .hd-ft-a{
+        margin-left: 0;
+      }
+}
+
+@media only screen and (max-width: 520px){
+    .bar-li{
+        margin-left: 0;
+    }
+    .bar{
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 520px){
+    .bar-li{
+        margin-left: 0;
+    }
+    .bar{
+        margin-left: 0%;
+    }
+}
+
+
