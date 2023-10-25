@@ -189,3 +189,115 @@ li:nth-child(7) {
 }
 
 
+
+
+
+
+
+
+/* SECTION*/
+.bt-2{
+    display: flex;
+}
+
+.head-1{
+    color: #032d60;
+    font-size:56px;
+    letter-spacing: 0.01em;
+    line-height: 64px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.head-2{
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+.sec1{
+    background-image: url(php-marqee-ai-data-crm-lg-bg.webp);
+    background-size: cover;
+    margin-left:  7.5rem;
+    
+}
+
+.sec1-div{
+    display: flex;
+    padding-top: 4rem;
+}
+
+.sec1-div-ul1{
+    padding-top: 4rem;
+    margin-right: 9.5rem;
+}
+
+.sec1-img1{
+    max-width: 514.8px;
+    max-height: 514.8px;
+    margin-right: 7.5rem;    
+}
+
+.btn-2-1{
+    margin-right: 1rem;
+    background-color: #0176d3;
+    color: white;
+    padding: 0.81rem 2rem;
+    border-radius: 5px;
+    font-size: medium;
+   
+}
+.btn-2-2{
+    background-color: white;
+    color: #0176d3;
+    padding: 0.8rem 2rem;
+    border-color: #0176d3;
+    border-radius: 5px;
+    font-size: medium;
+
+}
+
+
+
+@media only screen and (max-width:1477px){
+
+    .sec1{
+        margin-left:  3rem;
+        
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .sec1-div{
+        display: grid;
+    }
+
+    
+    .sec1-div-ul1{
+        margin-left: 10%;
+    }
+    .sec1-img1{
+        margin-left: 25%;
+        max-width: 450px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 810px){
+    .sec1-div{
+        display: block;
+    }
+    .sec1-img1{
+        margin-left:10%;
+        max-width: 350px;
+        
+    }
+    .bt-2{
+        display: grid;
+        
+        
+    }
+    .btn-2-1 .btn-2-2{
+        
+        
+    }
+}
